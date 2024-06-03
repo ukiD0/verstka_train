@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ <style name="h1" parent="">
+     <item name="android:textSize">24sp</item>
+     <item name="android:fontWeight">500</item>
+     <item name="android:lineHeight">30dp</item>
+     <item name="android:textColor">@color/black_for_app</item>
+     <item name="android:fontFamily">@font/roboto_medium</item>
+ </style>
+    <style name="h2" parent="">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontWeight">500</item>
+        <item name="android:lineHeight">16dp</item>
+        <item name="android:textColor">@color/grey</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+    </style>
+    <style name="btn_send_otp" parent="">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontWeight">700</item>
+        <item name="android:lineHeight">16dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+    </style>
+    <style name="remember" parent="">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontWeight">400</item>
+        <item name="android:lineHeight">16dp</item>
+        <item name="android:textColor">@color/grey</item>
+        <item name="android:fontFamily">@font/roboto</item>
+    </style>
+    <style name="rem_blue" parent="remember">
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:fontWeight">500</item>
+    </style>
+    <style name="et_fogot_pass" parent="">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontWeight">500</item>
+        <item name="android:lineHeight">16dp</item>
+        <item name="android:textColor">@color/black_for_app</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="hintTextColor">@color/hint_color</item>
+    </style>
+</resources>
