@@ -12,6 +12,6 @@ class MainActivity : AppCompatActivity() {
         val binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 //        val btn =  findViewById<TextView>(R.id.tv_helloWorld)
-        binding.tvHelloWorld.text = "Hello"
+//        binding.tvHelloWorld.text = "Hello"
     }
 }
